@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polleria</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+
+            <div class="four columns">
+                <h2> <img src="img/logo.jpg" alt="">Polleria </h2>
+            </div>
+
+                <div class="two columns u-pull-rigth">
+                    <ul>
+
+                        <li class="submenu">
+                            <img src="img/cart.png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">carrito vacio</p>
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+
+
+                                    <tbody>
+                                       
+                                    </tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito"
+                                class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+           
+        </div>
+    </div>
+
+</header>
+
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <div class="contenido-hero">
+                    <h1>Polleria "Virgen del Carmen"</h1>
+                    <p>Precios desde S/.10</p>
+                    <form>
+                        <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                        <input type="subm   it" class="submit-buscador">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="barra">
+    <div class="container">
+        <div class="row">
+            <div class="four columns icono icono1">
+                <p>Ensalada y aguadito de cortesia<br>
+                    Pide tu bebida favorita</p>
+            </div>
+            <div class="four columns icono icono2">
+                <p>EL MEJOR SABOR Y SAZON EN LOS POLLOS A LA BRASA!!</p>
+            </div>
+            <div class="four columns icono icono3">
+            <p>LOS MEJORES CHEFF POLLEROS</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="lista-platillos" class="container" >
+    <h1 class="encabezado">Pedidos en Linea</h1>
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Pollo entero</h4>
+                    <p>+1/4 de pollo +Ensalada y cremas </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/70.00 <span class="u-pull-right"> S/64.00</span> </p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>1/2 Pollo</h4>
+                    <p>+Ensalada y cremas </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/35.00 <span class="u-pull-right"> S/32.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>1/4 Pollo</h4>
+                    <p>+Ensalada y cremas  </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/17.50 <span class="u-pull-right"> S15.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+     <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo4.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>1/8 Pollo
+                    </h4>
+                    <p>+Ensalda y cremas </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$50 <span class="u-pull-right"> $15</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo5.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Porcion de arroz chaufa</h4>
+                    <p>+Cremas </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$50 <span class="u-pull-right"> $15</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo9.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Salchipapa</h4>
+                  
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/9.00 <span class="u-pull-right"> S/9.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo8.jpg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Pollo broster</h4>
+                    <p>+cremas</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/8.00 <span class="u-pull-right">S/8.00 </span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo6.jpg" style='width: 350px; height:260px'>
+                <div class="info-card">
+                    <h4>Gaseosas de 250ml</h4>
+                    <p>Bebidas </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/3.00 <span class="u-pull-right">S/3.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/platillo7.jpg" style='width: 400px; height:260px'>
+                <div class="info-card">
+                    <h4>Gaseosas de 1.5L </h4>
+                    <p>Bebida  </p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">S/7.00 <span class="u-pull-right">S/7.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Pedidos a domicilio</a>
+                        <a class="enlace" href="#">Pedidos en linea</a>
+                        <a class="enlace" href="#">Pedidos por telefono</a>
+                        <a class="enlace" href="#">menu</a>
+                        <a class="enlace" href="#">bebidas</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Restaurante </a>
+                        <a class="enlace" href="#">Ubicacion </a>
+                        <a class="enlace" href="#">Telefono </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="js/app.js"></script>
+</body>
+
+</html>
